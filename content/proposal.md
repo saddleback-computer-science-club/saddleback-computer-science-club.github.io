@@ -30,3 +30,5 @@ One of my goals is to make a cohesive, organized site that has good documentatio
   - Python: develop pages using club resources, integrating this with algorithmic and data structure problems
   - Git and Github: Extremely important and widely used in modern industry, this will be one of the first set of articles I write
   - Algorithmic and Mathmatical concepts used: Subarticles used to explain the concepts behind certain algorithms in a more abstract mathematical way.
+
+Written by Matthew Reese
