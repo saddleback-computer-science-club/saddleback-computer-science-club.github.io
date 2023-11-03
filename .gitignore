@@ -1,0 +1,14 @@
+# Executables
+*.exe
+
+# Hugo
+public/
+dist/
+resources/
+
+# Logs
+logs
+*.log
+
+# Mac File System File
+.DS_Store

@@ -1,0 +1,4 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'Saddleback Computer Science Site'
+theme = 'paper'
