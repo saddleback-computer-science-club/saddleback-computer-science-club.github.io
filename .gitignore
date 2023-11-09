@@ -12,3 +12,6 @@ logs
 
 # Mac File System File
 .DS_Store
+
+# VSCode Data
+.vscode/
