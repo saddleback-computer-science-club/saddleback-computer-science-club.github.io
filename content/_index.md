@@ -1,11 +1,9 @@
-+++
-title = 'Home'
-date = 2023-11-14T17:15:21-08:00
-draft = false
+---
+title: 'Home Page'
+date: 2023-11-15T15:08:02-08:00
+draft: true
 
-url = '/'
+author: 'Matthew Reese'
+---
 
-author = 'Matthew Reese'
-+++
-
-## Homepage of the saddleback computer science club / S.A.M.E. Cohort.
+More stuff, eventually{{< rawhtml >}}<sup>(TM)</sup>{{< /rawhtml >}}...

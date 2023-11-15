@@ -1,10 +1,10 @@
-+++
-title = 'Python Quick Reference'
-date = 2023-11-14T17:07:29-08:00
-draft = true
+---
+title: 'Data Science Quick Reference'
+date: 2023-11-14T17:07:29-08:00
+draft: true
 
-author = 'Matthew Reese'
-+++
+author: 'Matthew Reese'
+---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

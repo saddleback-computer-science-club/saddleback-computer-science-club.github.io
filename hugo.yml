@@ -1,0 +1,20 @@
+baseURL: /
+languageCode: en-us
+title: Saddleback Computer Science Site
+theme: PaperMod
+buildDrafts: true
+
+params:
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowBreadCrumbs: false
+
+menu:
+  main:
+    - identifier: contributing
+      name: contributing
+      url: /contributing/
+      weight: 10
+
+permalinks:
+  posts: /:title

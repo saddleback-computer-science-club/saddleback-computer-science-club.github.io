@@ -17,6 +17,7 @@ First steps in getting a presentable website ready.
 ### Todo
 - [ ] Create [contributing guide](#contributing-guide)  
 - [ ] Create python quick-reference guide
+- [ ] Meeting notes template
 
 ### In Progress
 - [ ] [Learn relevant information](#learning-progress)
@@ -73,6 +74,7 @@ Configure hugo to look nicer and work better with a more preferable structure of
   - [ ] reference
   - [ ] blog/lab\(?\)
   - [ ] Event information
+  - [ ] Meeting notes
 - [ ] Home page formatting for practicality.
   - [ ] List events, links to **a few** useful pages, etc.
   - [ ] Easier navigation between pages
