@@ -3,7 +3,11 @@ languageCode = 'en-us'
 title = 'Saddleback Computer Science Site'
 theme = 'PaperMod'
 
-buildDrafts = 'true'
+buildDrafts = true
+
+[params]
+  ShowReadingTime = true
+  ShowWordCount = true
 
 # Remove 'posts' path in page urls
 [permalinks]

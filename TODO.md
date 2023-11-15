@@ -15,12 +15,12 @@ Overview of larger goals.
 First steps in getting a presentable website ready.
 
 ### Todo
-- [ ] Outline site manually
 - [ ] Create [contributing guide](#contributing-guide)  
 - [ ] Create python quick-reference guide
 
 ### In Progress
 - [ ] [Learn relevant information](#learning-progress)
+- [ ] Outline site manually
 
 ### Done ✓
 - [x] Write Proposal
@@ -69,6 +69,13 @@ Configure hugo to look nicer and work better with a more preferable structure of
 - [ ] Setup benchmarking/profiling for site before publishing
 - [ ] Modify theme headers and footers 
   - [ ] Include author, time/date, etc.
+- [ ] Create more useful archetypes
+  - [ ] reference
+  - [ ] blog/lab\(?\)
+  - [ ] Event information
+- [ ] Home page formatting for practicality.
+  - [ ] List events, links to **a few** useful pages, etc.
+  - [ ] Easier navigation between pages
 
 ### In Progress
 
