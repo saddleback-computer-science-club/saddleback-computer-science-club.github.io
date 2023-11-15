@@ -1,4 +1,10 @@
-baseURL = ''
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Saddleback Computer Science Site'
-theme = 'paper'
+theme = 'PaperMod'
+
+buildDrafts = 'true'
+
+# Remove 'posts' path in page urls
+[permalinks]
+  posts = "/:title"
