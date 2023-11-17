@@ -3,6 +3,8 @@ title: 'Site Proposal'
 date: 2023-11-03T15:41:11-07:00
 draft: false
 url: 'proposal'
+
+unlisted: true
 ---
 
 To whom it may concern, everything following is my ideas of how the site **may** be structured. There are still some flaws and parts that need much more development. If you have any suggestions, questions, or criticisms, please email me.

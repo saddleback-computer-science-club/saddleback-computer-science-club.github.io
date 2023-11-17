@@ -56,7 +56,7 @@
 {{- $term := .Data.Term }}
 {{/*  {{- range $index, $page := $paginator.Pages }}  */}}
 {{/* This really needs to be made clearer...  */}}
-{{- range $index, $page := union .RegularPages .Sections }}
+{{- range $index, $page := (where (union .RegularPages .Sections) ".Params.unlisted" "!=" "true")}}
 
 {{- $class := "post-entry" }}
 
