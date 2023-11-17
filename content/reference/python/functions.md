@@ -1,7 +1,7 @@
 ---
 title: 'Python Functions'
 date: 2023-11-16T18:34:26-08:00
-draft: true
+draft: false
 
 description: 'Basic reference on python functions'
 author: 'Matthew Reese'
