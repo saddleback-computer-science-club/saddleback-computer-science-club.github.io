@@ -11,6 +11,7 @@ params:
   ShowWordCount: true
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
+  math: true
 
 markup:
   highlight:
