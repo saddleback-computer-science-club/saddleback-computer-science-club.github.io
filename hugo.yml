@@ -5,9 +5,17 @@ theme: PaperMod
 buildDrafts: true
 
 params:
+  assets:
+    disableHLJS: true
   ShowReadingTime: true
   ShowWordCount: true
   ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+
+markup:
+  highlight:
+    style: github-dark
+    # lineNos: true
 
 menu:
   main:
