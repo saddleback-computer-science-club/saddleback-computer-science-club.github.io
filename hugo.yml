@@ -17,12 +17,5 @@ markup:
     style: github-dark
     # lineNos: true
 
-menu:
-  main:
-    - identifier: contributing
-      name: contributing
-      url: /contributing/
-      weight: 10
-
 permalinks:
   posts: /:title
