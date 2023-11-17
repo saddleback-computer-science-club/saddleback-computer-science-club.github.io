@@ -54,7 +54,8 @@
 {{- end }}
 
 {{- $term := .Data.Term }}
-{{- range $index, $page := $paginator.Pages }}
+{{/*  {{- range $index, $page := $paginator.Pages }}  */}}
+{{- range $index, $page := .RegularPages }}
 
 {{- $class := "post-entry" }}
 
