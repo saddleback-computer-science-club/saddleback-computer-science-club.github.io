@@ -13,7 +13,7 @@ Functions in Python are similar in both concept and syntax to most other high-le
 
 ## Rudiments
 
-### Denotative Statements
+### Syntax Basics
 
 A function in python is defined using the **def** keyword. Following this is the function name, then a pair of parenthesis `()`, containing any parameters. At the end of the line is a colon `:`
 
@@ -69,7 +69,7 @@ print_square(4)
 
 ### Return Values
 
-Not only can functions receive data, they can also send some back whence to the caller. Using the **return** statement, functions may pass back data in the form of *any type*. Here is an illustration of this behavior:
+Not only can functions receive data they can also send some back to the caller. Using the **return** statement, functions may pass back data in the form of *any type*. Here is an illustration of this behavior:
 
 ```python
 def weird(n):
@@ -83,7 +83,7 @@ def weird(n):
 
 In most circumstances, a function that has paths branching to multiple possible return types is a very bad idea. Imagine that you need to call a function like this; parsing the return value will be very difficult and prone to error.
 
-With the freedom that python permits, it is a remarkably easier to return *multiple values* from a function than in a language like C++. There are several to do this using **lists**, **dicts** or even user defined types, but the simplest is to return a **tuple** holding the return values. Below is an implementation of that idea, for a function calculating the number of days, hours, and minutes in a given number of seconds.
+With the freedom that python permits, it is remarkably easier to return *multiple values* from a function than in a language like C++. There are several to do this using **lists**, **dicts** or even user-defined types, but the simplest is to return a **tuple** holding the return values. Below is an implementation of that idea, for a function calculating the number of days, hours, and minutes in a given number of seconds.
 
 ```python
 def get_time_period(seconds):
@@ -111,7 +111,7 @@ ___
 
 If needed, functions can be written to take an arbitrary number of arguments using `*args`, or even an arbitrary number of keyword arguments using `**kwargs`. Beginning with `*args`, it functions to *pack* the arbitrary arguments passed to the function, into a data structure that can be used. Instead of unpacking the values from a returned tuple, as was done in the prior section, `*args` will place all arguments it receives into a tuple. The names `*args` and `**kwargs` may be anything, however, convention dictates that a variable list of arguments should be `*args` or `*argv`, while a variable list of keyword arguments is `**kwargs`.
 
-One example of where you've likely used `*args` before is the builtin `print()` function. It accepts any number of arguments that passed in, printing each to stdout in order. Many other builtin functions make use of the argument list. An example implementation of `minimum` (similar to the builtin `min` function) is below.
+One example of where you've likely used `*args` before is the built-in `print()` function. It accepts any number of arguments that passed in, printing each to stdout in order. Many other built-in functions make use of the argument list. An example implementation of `minimum` (similar to the builtin `min` function) is below.
 
 ```python
 def minimum(*args):
@@ -125,7 +125,7 @@ minimum(1, 8, 6, -3, -2)
 # > -3
 ```
 
-`**kwargs` works in a similar fashion, except that instead of packing the values into a **tuple**, they are packed into a **dict**. Keyword arguments are also the only type of arguments parsed. Understand that plain old normal arguments, `*args`, keyword arguments and `**kwargs` can all be utilized in the same function. Due to the nature of how arguments are parsed, they **must** appear in that order. Below is an example demonstrating this idea. While this may be perfectly legal programmatically, using all of these in a function is certainly not advisable as the code will not be easy to read nor understand.
+`**kwargs` works in a similar fashion, except that instead of packing the values into a **tuple**, they are packed into a **dict**. Keyword arguments are also the only type of arguments parsed. Understand that plain old normal arguments, `*args`, keyword arguments and `**kwargs` can all be utilized in the same function. Due to the nature of how arguments are parsed, they **must** appear in that order. Below is an example demonstrating this idea. While this may be perfectly legal programmatically, using all of these in a function is certainly not advisable as the code will not be easy to read or understand.
 
 ```python
 def print_all(a, b, *args, key_c, key_d, **kwargs):
@@ -156,7 +156,7 @@ summation_to_n(6) # => 6 + 5 + 4 + 3 + 2 + 1 + 0
 # > 21
 ```
 
-This function computes the result of the equation $\sum_{i=0}^{n} {i}$ for a given natural number *n*. The conceptual aspects of this idea will not be covered in this page, but know that recursion has many applications in algorithmic design.
+This function computes the result of the equation $\sum_{i=0}^{n} {i}$ for a given natural number *n*. The conceptual aspects of this idea will not be covered on this page, but know that recursion has many applications in algorithmic design.
 
 ## Lambdas
 
@@ -169,7 +169,7 @@ def add(a, b):
 lambda a, b : a + b
 ```
 
-That's it. That's how simple the syntax of a lambda is: the keyword **lambda**, a list of arguments, then a single statement which handles all necessary computations and returns the result. Currently, the lambda in the program above is completely accessible. Using a variable, we can store a reference to the lambda function and then treat that variable as if it were the name of a function. See below:
+That's it. That's how simple the syntax of a lambda is: the keyword **lambda**, a list of arguments, then a single statement that handles all necessary computations and returns the result. Currently, the lambda in the program above is completely accessible. Using a variable, we can store a reference to the lambda function and then treat that variable as if it were the name of a function. See below:
 
 ```python
 adder = lambda a, b : a + b
@@ -178,7 +178,7 @@ adder(1, 2) # -> 3
 adder('a', 'c') # -> 'ac'
 ```
 
-Now that you understand the syntax, what are lambda's useful for? They generally are passed as arguments to higher-order functions or returned from functions themselves. The applications of these two ideas well beyond the scope of this page, but I will provide one example on the usefulness of the compact nature of lambdas when used in conjunction with higher-order functions.
+Now that you understand the syntax, what are lambda's useful for? They generally are passed as arguments to higher-order functions or returned from functions themselves. The applications of these two ideas are well beyond the scope of this page, but I will provide one example of the usefulness of the compact nature of lambdas when used in conjunction with higher-order functions.
 
 ```python
 data = [1, 2, 3, 4]
