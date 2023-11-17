@@ -55,7 +55,8 @@
 
 {{- $term := .Data.Term }}
 {{/*  {{- range $index, $page := $paginator.Pages }}  */}}
-{{- range $index, $page := .RegularPages }}
+{{/* This really needs to be made clearer...  */}}
+{{- range $index, $page := union .RegularPages .Sections }}
 
 {{- $class := "post-entry" }}
 
