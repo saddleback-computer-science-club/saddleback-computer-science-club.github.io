@@ -75,9 +75,11 @@ Configure hugo to look nicer and work better with a more preferable structure of
   - [ ] blog/lab\(?\)
   - [ ] Event information
   - [ ] Meeting notes
+  - [ ] Curated list of resources
 - [ ] Home page formatting for practicality.
   - [ ] List events, links to **a few** useful pages, etc.
   - [ ] Easier navigation between pages
+  - [ ] Fix issue with inline code highlighting
 
 ### In Progress
 
