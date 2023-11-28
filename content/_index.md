@@ -7,4 +7,4 @@ author: 'Matthew Reese'
 ---
 
 ## Welcome!
-Home page of the Saddleback Computer Science S.A.M.E. Cohort (a.k.a. Computer Science club).
+Home page of the Saddleback Computer Science S.A.M.E. Cohort (a.k.a. Computer Science club). See below for information on upcoming events, club projects, and basic reference pages for various computer science topics.
