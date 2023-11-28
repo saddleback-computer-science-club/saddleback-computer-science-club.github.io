@@ -6,4 +6,5 @@ draft: true
 author: 'Matthew Reese'
 ---
 
-More stuff, eventually{{< rawhtml >}}<sup>(TM)</sup>{{< /rawhtml >}}...
+## Welcome!
+Home page of the Saddleback Computer Science S.A.M.E. Cohort (a.k.a. Computer Science club).

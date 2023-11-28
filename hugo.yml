@@ -3,6 +3,7 @@ languageCode: en-us
 title: Saddleback Computer Science Site
 theme: PaperMod
 buildDrafts: true
+buildFuture: true
 
 params:
   assets:
