@@ -9,7 +9,7 @@ summary: 'Covers Markdown, Hugo, and Git fundamentals.'
 weight: 1
 ---
 
-This page covers [Hugo](#Hugo), [Git](#Git), and [Markdown](#Markdown) fundamentals necessary to understand for contributing to the site.
+This page covers [Hugo](#Hugo), [Git](#Git), and [Markdown](#Markdown) fundamentals necessary zto understand for contributing to the site.
 
 ## Markdown
 Markdown is a type of markup language, like HTML. Markup languages are used to specify how content should appear when rendered. For example, markdown allows you to create bold text by using two asterisks as follows: `**emboldened**`.
