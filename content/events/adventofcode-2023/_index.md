@@ -1,6 +1,8 @@
 ---
 title: 'Advent of Code 2023'
-date: 2023-12-01T14:07:59-08:00
+date: 2023-12-26
+
+type: 'event'
 ---
 
 Advent is code is a yearly event which has been running since 2015. It is structured like a traditional [advent calender](https://en.wikipedia.org/wiki/Advent_calendar), but instead of chocolates or sweets, users are presented with 25 coding problems on each day December 1st through 25th.

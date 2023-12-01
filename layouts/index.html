@@ -51,7 +51,7 @@
 <hr>
 <h2 style="margin: 32px auto 24px; font-size: 32px;">Upcoming Events</h2>
 {{/*  Credit to https://discourse.gohugo.io/t/best-way-to-show-first-5-upcomming-events/14924/2  */}}
-{{- $events := where (.Paginate .Site.RegularPages).Pages "Section" "events" -}}
+{{- $events := where .Site.Pages "Type" "event" -}}
 {{/*  {{- $events := $events | intersect (where $events "Date" "ge" now) | first 3 -}}  */}}
 {{- range $events -}}
 <article class="post-entry">
