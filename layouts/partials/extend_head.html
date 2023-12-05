@@ -1,3 +1,11 @@
 {{ if or .Params.math .Site.Params.math }}
 {{ partial "math.html" . }}
 {{ end }}
+
+{{ with resources.Get "custom.css" }}
+    <link rel="stylesheet" href="{{ .Permalink }}">
+{{end}}
+
+{{ with resources.Get "syntax.css" }}
+    <link rel="stylesheet" href="{{ .Permalink }}">
+{{ end }}

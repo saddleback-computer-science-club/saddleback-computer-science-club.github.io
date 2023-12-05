@@ -17,7 +17,13 @@ params:
 markup:
   highlight:
     style: github-dark
+    noClasses: false
     # lineNos: true
 
 permalinks:
   posts: /:title
+
+# Prevent caching of 'getresource' resources
+caches:
+  getresource:
+    maxAge: 0
