@@ -1,3 +1,3 @@
-# Saddleback Computer Science (Unofficial) Site
+# Website for Saddleback Computer Science S.A.M.E. Cohort
 
 Made with Hugo
