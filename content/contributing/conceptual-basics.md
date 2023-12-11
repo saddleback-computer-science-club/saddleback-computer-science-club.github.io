@@ -9,7 +9,7 @@ summary: 'Covers Markdown, Hugo, and Git fundamentals.'
 weight: 1
 ---
 
-This page covers [Hugo](#Hugo), [Git](#Git), and [Markdown](#Markdown) fundamentals necessary zto understand for contributing to the site.
+This page covers [Hugo](#hugo), [Git](#git), and [Markdown](#markdown) fundamentals necessary zto understand for contributing to the site.
 
 ## Markdown
 
