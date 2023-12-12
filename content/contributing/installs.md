@@ -23,7 +23,7 @@ For a more comprehensive install guide, and help with other operating systems, s
 
 A local installation of hugo is essential for looking at your rendered edits *before* submitting them to the main website. To install, find the edition for your operating system on [hugo's releases page](https://github.com/gohugoio/hugo/releases/latest). You will want to download the file **hugo_extended_X.XXX.X_OS-ARCH.zip** where *X.XXX.X* is the current version number, *OS* is your operating system and *ARCH* is your machine's architecture.
 
-Once you have downloaded the compressed folder, extract the executable into an easily accessible folder. Be sure to remember the location of this executable for later. 
+Once you have downloaded the compressed folder, extract the executable into an easily accessible place. Be sure to remember this location for later.
 
 ## Editor
 
