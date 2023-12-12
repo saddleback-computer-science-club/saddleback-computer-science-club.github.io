@@ -29,9 +29,9 @@ Git is a widely used version control system \(often abbreviated VCS\). It is mos
 
 **Repositories** are the file system that git will manage the history of. In our case, the repository is a single parent directory in which all site contents and configuration are stored.
 
-A **commit** is, in simplified terms, a saved point in the history of your repository. It may help to imagine this like a *save point* in a video game; this *save point* being recoverable and stored indefinitely.
+A **commit** is, in simplified terms, a saved point in the history of your repository. It may help to imagine this like a *save point* in a video game; this *save point* being recoverable and stored indefinitely (for all intents and purposes for our use cases).
 
-Deep-diving further into git would reveal it to be an extremely complex system with many subtleties. However, for the purposes of this site, usages of Git will be limited to only the most basic commands.
+Usage of Git will be covered in further detail in the [submitting changes guide](./submitting-changes).
 
 ## Further Resources
 
