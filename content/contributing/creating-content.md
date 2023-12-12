@@ -9,4 +9,17 @@ summary: 'Guide for writing website pages.'
 weight: 3
 ---
 
-Content in this website is written using the markdown language and hugo shortcodes. Markdown is a very basic syntax  
+Creating pages for this site involves running a command to create the markdown file, then simply editing the file. It is not necessary to understanding the intricacies of hugo, html, or anything going on at the lower level; knowing **what** the command does and the basics of markdown is more than enough to begin contributing.
+
+## Getting the Files
+
+First thing's first, you'll need a local copy of the site files before you can think about doing anything else. If you haven't already, make sure that all of the programs listed in [the install guide](./installs) have been installed.
+
+Start off by finding a nice, memorable place in your system to work, then run the command below. Feel free to press the `copy` button found at the top-right of the code block so that you don't need to type it out manually.
+
+```bash
+git clone --recurse-submodules \
+    https://github.com/saddleback-computer-science-club/saddleback-computer-science-club.github.io.git \
+    website
+```
+
