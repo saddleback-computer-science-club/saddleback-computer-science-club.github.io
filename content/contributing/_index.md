@@ -16,6 +16,8 @@ On this page is a basic overview of how to get yourself setup to work on the sit
 
 If you want to delve further into any of the concepts below, each page contains a curated list of resources that may provide more information.
 
+Video guide coming soon.
+
 ### Quick Start
 
 1. Download and install [Git](https://git-scm.com/download), [Hugo](https://gohugo.io/installation/), and an editor such as [Visual Studio Code](https://github.com/gohugoio/hugo/releases/latest).
