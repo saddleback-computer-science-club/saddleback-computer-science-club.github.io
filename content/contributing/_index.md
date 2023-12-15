@@ -54,7 +54,7 @@ Video guide coming soon.
 7. Push your changes to the remote repository by running
 
     ```console
-    git push -u origin
+    git push -u origin feature/<topic name>
     ```
 
 8. Create a [pull request on github](https://github.com/saddleback-computer-science-club/saddleback-computer-science-club.github.io/compare) to mark your submitted changes as *ready for review*.
