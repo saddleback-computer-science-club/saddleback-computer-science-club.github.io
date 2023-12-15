@@ -88,6 +88,10 @@ Once you've finished work on the branch and believe that it's ready to exist on 
 
 Once you follow those steps all you have left to do is wait. Reviewers will be notified of the new request and either accept it, fix errors, or possibly question you regarding the changes.
 
+## Organizing Tasks
+
+Any long-term and multi-person tasks will be managed through a GitHub project board [here](https://github.com/orgs/saddleback-computer-science-club/projects/2/views/1). This will soon (hopefully) be synced with a trello board for easier accessibility. If you don't have any ideas of what to work on and are interested in helping out, feel free to check out the tasks and help with one.
+
 ## Putting It All Together
 
 To help you understand everything above, here's what an example workflow might look like for the creation of a hypothetical python dictionary guide. This will be done collaboratively between two developers, **Dev 1** and **Dev 2** over the course of a few days.
@@ -152,10 +156,14 @@ To help you understand everything above, here's what an example workflow might l
 
     *Looks over files andd decides that everything is complete.*
 
-2. *Creates pull request on GitHub to be reviewed.*
+2. *Create pull request on GitHub to be reviewed.*
 
 ## Other Git Tips
 
 - It's worth mentioning again and again, run `git pull` very often.
 
 - Suppose you started making changes on your local main branch, forgetting  to create or switch to the new `feature` branch. You certainly don't want to lose those changes, so the simplest way to fix this is by running `git stash` then creating/switching to the branch by following the [how to section](#how-to) and finally running `git stash pop`.
+
+- To see a list of changes in your working tree, run `git status` or `git status -v` for a more verbose (detailed) view of these changes
+
+- To view all branches present on your local repository run `git branch`
