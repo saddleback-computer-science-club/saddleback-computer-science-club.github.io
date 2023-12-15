@@ -33,10 +33,10 @@ Video guide coming soon.
 3. Create a new branch for your work using:
 
     ```console
-    git checkout -b feature/<name>
+    git checkout -b feature/<topic name>
     ```
 
-    Where `<NAME>` is a descriptive name of the new page(s).
+    Where `<topic name>` is a descriptive name of the new page(s).
 
 4. Run the following command to create a new markdown file from archetype:
 
