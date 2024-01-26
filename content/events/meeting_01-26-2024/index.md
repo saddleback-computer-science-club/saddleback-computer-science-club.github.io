@@ -16,7 +16,7 @@ Here are some links showing how to install the software needed to participate. E
 Feel free to skip the install of GitHub Desktop if you're comfortable with the command line, or skip VSCode if you prefer another editor.
 
 - [Installing VSCode](https://code.visualstudio.com/Download)
-- [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [Installing Git](https://git-scm.com/downloads)
 
 ## Tracking Changes with Git
 In order to work with Git in VSCode, first access the menu under this icon on the left:
