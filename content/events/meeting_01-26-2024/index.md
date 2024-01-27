@@ -47,3 +47,5 @@ You'll create a simple student management system in Python. Each student should 
 5. Refactor your code to make it more object oriented, using setters and getters for `Student` and creating a new `StudentManager` class to manage the list of students.
 
 ## Publishing to Github
+
+For this I recommend using [GitHub Desktop](https://desktop.github.com/). You'll want to sign in with a GitHub account, creating one if necessary, then `Open a Repository on Your Local Machine`. Once the project is open, you can commit changes and upload it to GitHub using the GitHub desktop GUI.
