@@ -41,9 +41,9 @@ This is a slightly modified version of the final project presented at the last m
 You'll create a simple student management system in Python. Each student should have information including name, age, and courses enrolled in.
 
 1. Create a list or dictionary to hold student information. Initialize it with some random data for a couple students. Then create a loop to get user input for a menu-driven interface. This menu should give the user options to display students or exit.
-2. Create a class, `Student`, to hold the data specified \(name, age, courses\). Replace the current structure managing students with a list of `Student` types. Update the necessary code in the menu interface. (This `Student` class will behave like a C/)
-3. Update the menu interface with three new options: *Add Student*, *Update Student Information*, and *Delete Student*
+2. Create a class, `Student`, to hold the data specified \(name, age, courses\). Replace the current structure managing students with a list of `Student` types. Update the necessary code in the menu interface. \(This `Student` class will behave like a C/C++ struct type\)
+3. Update the menu interface with three new options: *Add Student*, *Update Student Information* \(Change name/age/courses as specified\), and *Delete Student*
 4. Add saving functionality. Each time the user exits, the list of student information should be saved to a file. Then, when they enter the program again, the file will be read from, attempting to initialize the student data list to the content found there.
-5. Refactor your code to make it more object oriented, using setters and getters for `Studennt` and creating a new `StudentManager` class to manage the list of students.
+5. Refactor your code to make it more object oriented, using setters and getters for `Student` and creating a new `StudentManager` class to manage the list of students.
 
 ## Publishing to Github
